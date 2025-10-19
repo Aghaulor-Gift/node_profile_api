@@ -5,9 +5,16 @@ const cors = require('cors');
 
 
 const app = express();
+app.use(cors());
 
 const port = process.env.PORT  || 3000;
 
+// Redirect root to /me
+app.get('/', (req, res) => {
+  res.redirect('/me');
+});
+
+// /me endpoint
 app.get('/me', async (req, res) => {
   try {
     // Fetch a new cat fact on each request
