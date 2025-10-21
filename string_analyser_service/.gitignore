@@ -1,0 +1,17 @@
+# Environment files
+.env
+
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log
+pnpm-debug.log
+
+# System files
+.DS_Store
+
+pnpm-lock.yaml
+
+# Backup or temporary files
+*~
