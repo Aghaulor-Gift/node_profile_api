@@ -208,16 +208,16 @@ curl -X POST http://localhost:3000/strings \
 ```
 
 ### Example Repo Structure
-string-analyzer/
-├── index.js
-├── package.json
-├── utils/
-│   └── analyzeString.js
-├── routes/
-│   └── stringRoutes.js
-├── controllers/
-│   └── stringController.js
-└── README.md
+string-analyzer/  
+├── index.js  
+├── package.json  
+├── utils/  
+│   └── analyzeString.js  
+├── routes/  
+│   └── stringRoutes.js  
+├── controllers/  
+│   └── stringController.js  
+└── README.md  
 
 ## Author
 
